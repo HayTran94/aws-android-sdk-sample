@@ -1,0 +1,35 @@
+{
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "ap-southeast-1:62058524-5d3a-497b-9dc3-0db8ce5268b0",
+        "Region": "ap-southeast-1"
+      }
+    }
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "ap-southeast-1_jdpJHzFG6",
+      "AppClientId": "6jorb42g90n0q8oe3b5s9tgks5",
+      "AppClientSecret": "1osevjq1j3e2shsrqpe02c9ts83ec6vv2quu4r7iosg19bk62uhm",
+      "Region": "ap-southeast-1"
+    }
+  },
+
+  "Auth": {
+    "Default": {
+      "OAuth": {
+        "WebDomain": "exinot.auth.ap-southeast-1.amazoncognito.com",
+        "AppClientId": "5gb24ovdv0s9ptmd70qeirb4ic",
+        "AppClientSecret": "131ruogftidmpqbfqqj77upuhsmu5sovg7ftsf9pm8ppsk9oaoed",
+        "SignInRedirectURI": "myapp://callback",
+        "SignOutRedirectURI": "myapp://signout",
+        "Scopes": ["openid", "email"]
+      }
+    }
+  }
+
+}
